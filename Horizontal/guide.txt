@@ -1,0 +1,35 @@
+path 1 - is from 12.23
+path 2 - path 7 are from 12.25
+path 8 - path 15 are from 12.49
+path 16 - path 21 are from 13.38
+path 22 - path 27 are from 13.52
+
+
+time:
+path 1 :20
+path 2 :44
+path 3 :49
+path 4 :41    this is the test
+path 5 :32
+path 6 :23.6
+path 7 :46
+path 8 :33
+path 9 :54
+path 10 :46
+path 11 :55
+path 12 :18.5
+path 13 :51
+path 14 :26
+path 15 :38
+path 16 :32
+path 17 :41
+path 18 :32
+path 19 :29
+path 20 :26
+path 21 :26
+path 22 :31
+path 23 :38
+path 24 :35
+path 25 :35
+path 26 :25
+path 27 :32
