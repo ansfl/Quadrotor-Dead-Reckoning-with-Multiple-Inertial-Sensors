@@ -1,16 +1,20 @@
 # Introduction
 
-This repository describes the datasets associated with our paper "Quadrotor Dead Recooking with Multiple Inertial Sensors"
+This repository describes the dataset associated with our paper "Quadrotor Dead Recooking with Multiple Inertial Sensors"
 
-Dataset
+# Experiment Setup
+The experiment platform was a DJI’s Phantom 4 quadrotor. This quadrotor has a RTK GNSS receiver providing our ground-truth trajectories. In addition, the quadrotor was equipped with four Xsens DOT IMUs to create the MIMU dataset for evaluations
+
+# Dataset
 The datasets include the following recordings:
-•	Straight lines trajectories: four trajectories with a total time duration of 66 seconds while the quadrotor had an average speed of 5.4 m/s. 
-•	Horizontal periodic QDR trajectories: 27 trajectories with a total time duration of 16.1 minutes while the quadrotor had an average speed of 3.7 m/s.
-•	Vertical periodic QDR trajectories: 31 trajectories with a total time duration of 12.6 minutes while the quadrotor had an average speed of 4.5 m/s.
-In each trajectory includes 4 IMUs recording were made with a RTK-GNSS measurement severed as the ground truth (GT).  In the vertical periodic QDR trajectories 17 out of the 31 trajectories included a single IMU due to IMU failure during the experiments. 
 
-# Our Platforms
-DJI phantom 4 RTK drone
+•	Straight lines trajectories: four trajectories with a total time duration of 66 seconds while the quadrotor had an average speed of 5.4 m/s. 
+
+•	Horizontal periodic QDR trajectories: 27 trajectories with a total time duration of 16.1 minutes while the quadrotor had an average speed of 3.7 m/s.
+
+•	Vertical periodic QDR trajectories: 31 trajectories with a total time duration of 12.6 minutes while the quadrotor had an average speed of 4.5 m/s.
+
+In each trajectory includes 4 IMUs recording were made with a RTK-GNSS measurement severed as the ground truth (GT).  In the vertical periodic QDR trajectories 17 out of the 31 trajectories included a single IMU due to IMU failure during the experiments. 
 
 # The Autonomous Navigation and Sensor Fusion Lab
 The Autonomous Navigation and Sensor Fusion Lab (ANSFL) researches questions and challenges in the fields of autonomous navigation, inertial navigation systems, and estimation theory, as well as in related fields. Our research goals are to derive innovative inertial and sensor fusion algorithms, to develop novel inertial navigation system architectures, and to pioneer deep-learning-based navigation approaches.\
