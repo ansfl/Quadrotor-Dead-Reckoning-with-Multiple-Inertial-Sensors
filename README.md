@@ -29,12 +29,14 @@ If you found the experimental DATA useful for your research, please cite our pap
 
  @article{mimuquadnet2023,
   title={Quadrotor Dead Recooking with Multiple Inertial Sensors},
+  
   author = {Hurwitz, Dror and Klein, Itzik},
+  
   journal={arXiv preprint arXiv:2310.13452},
+  
   url = {https://arxiv.org/abs/2310.13452},
+  
   year={2022},
 }
  ```
- 
- [<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/ArXiv_web.svg/250px-ArXiv_web.svg.png width=70/>](https://arxiv.org/abs/2310.13452)
  
