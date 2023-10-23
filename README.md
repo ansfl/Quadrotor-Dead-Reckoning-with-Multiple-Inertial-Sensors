@@ -25,4 +25,16 @@ The Autonomous Navigation and Sensor Fusion Lab (ANSFL) researches questions and
 All datasets on this page are published under the [Creative Commons Attribution Version 4 License](https://creativecommons.org/licenses/by/4.0/legalcode)
 
 # Cite Us
+If you found the experimental DATA useful for your research, please cite our paper:
 
+ @article{mimuquadnet2023,
+  title={Quadrotor Dead Recooking with Multiple Inertial Sensors},
+  author = {Hurwitz, Dror and Klein, Itzik},
+  journal={arXiv preprint arXiv:2310.13452},
+  url = {https://arxiv.org/abs/2310.13452},
+  year={2022},
+}
+ ```
+ 
+ [<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/ArXiv_web.svg/250px-ArXiv_web.svg.png width=70/>](https://arxiv.org/abs/2310.13452)
+ 
