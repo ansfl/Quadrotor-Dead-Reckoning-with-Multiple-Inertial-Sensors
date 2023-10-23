@@ -1,6 +1,8 @@
 # Introduction
 
-This repository describes the dataset associated with our paper "Quadrotor Dead Recooking with Multiple Inertial Sensors"
+This repository describes the dataset associated with our paper "Quadrotor Dead Recooking with Multiple Inertial Sensors".   
+
+Quadrotors are widely used for surveillance, mapping, and deliveries. In several scenarios the quadrotor operates in pure inertial navigation mode resulting in a navigation solution drift.  To handle such situations and bind the navigation drift, the quadrotor dead reckoning (QDR) approach requires flying the quadrotor in a periodic trajectory. Then, using model or learning based approaches the quadrotor position vector can be estimated. We propose to use multiple inertial measurement units (MIMU) to improve the positioning accuracy of the QDR approach. Several methods to utilize MIMU data in a deep learning framework are derived and evaluated. Field experiments were conducted to validate the proposed approach and show its benefits. 
 
 # Experiment Setup
 The experiment platform was a DJI’s Phantom 4 quadrotor. This quadrotor has a RTK GNSS receiver providing our ground-truth trajectories. In addition, the quadrotor was equipped with four Xsens DOT IMUs to create the MIMU dataset for evaluations
