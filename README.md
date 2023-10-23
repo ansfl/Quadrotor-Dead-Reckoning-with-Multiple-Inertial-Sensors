@@ -18,7 +18,7 @@ The datasets include the following recordings:
 
 In each trajectory includes 4 IMUs recording were made with a RTK-GNSS measurement severed as the ground truth (GT).  In the vertical periodic QDR trajectories 17 out of the 31 trajectories included a single IMU due to IMU failure during the experiments. 
 
-An example of QDR trajectories vertical and horizontal sinus can be seen here:
+An example of QDR trajectories vertical (side view) and horizontal (top view) trajectories can be seen in the figure below.
 
 ![alt text](https://github.com/ansfl/Quadrotor-Dead-Recooking-with-Multiple-Inertial-Sensors/blob/main/2033_ISS_HurwitzKlein_Fig8.png?raw=true)
 
@@ -35,14 +35,10 @@ If you found the experimental DATA useful for your research, please cite our pap
 
  @article{mimuquadnet2023,
   title={Quadrotor Dead Recooking with Multiple Inertial Sensors},   
-  
   author = {Hurwitz, Dror and Klein, Itzik},   
-  
   journal={arXiv preprint arXiv:2310.13452},   
-  
   url = {https://arxiv.org/abs/2310.13452},   
-  
-  year={2022},
+  year={2022}
 }
  ```
  
