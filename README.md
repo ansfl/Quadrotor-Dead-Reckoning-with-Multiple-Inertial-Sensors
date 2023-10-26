@@ -1,13 +1,13 @@
 # Introduction
 
-This repository describes the dataset associated with our paper "Quadrotor Dead Recooking with Multiple Inertial Sensors".   
+This repository describes the dataset associated with our paper "Quadrotor Dead Reckoning with Multiple Inertial Sensors".   
 
 Quadrotors are widely used for surveillance, mapping, and deliveries. In several scenarios the quadrotor operates in pure inertial navigation mode resulting in a navigation solution drift.  To handle such situations and bind the navigation drift, the quadrotor dead reckoning (QDR) approach requires flying the quadrotor in a periodic trajectory. Then, using model or learning based approaches the quadrotor position vector can be estimated. We propose to use multiple inertial measurement units (MIMU) to improve the positioning accuracy of the QDR approach. Several methods to utilize MIMU data in a deep learning framework are derived and evaluated. Field experiments were conducted to validate the proposed approach and show its benefits. 
 
 # Experiment Setup
 The experiment platform was a DJI’s Phantom 4 quadrotor. This quadrotor has a RTK GNSS receiver providing our ground-truth trajectories. In addition, the quadrotor was equipped with four Xsens DOT IMUs to create the MIMU dataset for evaluations
 
-![alt text](https://github.com/ansfl/Quadrotor-Dead-Recooking-with-Multiple-Inertial-Sensors/blob/main/2033_ISS_HurwitzKlein_Fig7.png?raw=true)
+![alt text](https://github.com/ansfl/Quadrotor-Dead-Reckoning-with-Multiple-Inertial-Sensors/blob/main/2033_ISS_HurwitzKlein_Fig7.png?raw=true)
 
 # Dataset
 The datasets include the following recordings:
@@ -22,7 +22,7 @@ In each trajectory includes 4 IMUs recording were made with a RTK-GNSS measureme
 
 An example of QDR trajectories vertical (side view) and horizontal (top view) trajectories can be seen in the figure below.
 
-![alt text](https://github.com/ansfl/Quadrotor-Dead-Recooking-with-Multiple-Inertial-Sensors/blob/main/2033_ISS_HurwitzKlein_Fig8.png?raw=true)
+![alt text](https://github.com/ansfl/Quadrotor-Dead-Reckoning-with-Multiple-Inertial-Sensors/blob/main/2033_ISS_HurwitzKlein_Fig8.png?raw=true)
 
 # The Autonomous Navigation and Sensor Fusion Lab
 The Autonomous Navigation and Sensor Fusion Lab (ANSFL) researches questions and challenges in the fields of autonomous navigation, inertial navigation systems, and estimation theory, as well as in related fields. Our research goals are to derive innovative inertial and sensor fusion algorithms, to develop novel inertial navigation system architectures, and to pioneer deep-learning-based navigation approaches.\
